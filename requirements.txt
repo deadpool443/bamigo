@@ -1,0 +1,36 @@
+cachetools==5.3.3
+certifi==2024.6.2
+charset-normalizer==2.0.12
+customtkinter==5.2.2
+darkdetect==0.8.0
+idna==3.7
+install==1.3.5
+keyboard==0.13.5
+# logging
+numpy
+mouseinfo==0.1.3
+opencv-python==4.10.0.82
+openvr==1.26.701
+packaging==24.0
+pefile==2023.2.7
+pillow==10.3.0
+pip==24.0
+psutil==5.9.8
+# py2exe==0.13.0.1
+PyAutoGUI==0.9.54
+PyGetWindow==0.0.9
+py-machineid==0.2.1
+PyMsgBox==1.0.9
+pyperclip==1.8.2
+PyRect==0.2.0
+PyScreeze==0.1.30
+python-vlc==3.0.20123
+pytweening==1.2.0
+requests==2.28.0
+setuptools==58.1.0
+ttkbootstrap==1.10.1
+urllib3==1.26.18
+winregistry==1.1.1
+
+
+# pyinstaller --onefile --add-data "video_controls.py;." --add-data "video_player.py;." --add-data "automation.py;." --add-data "database.py;." --add-data "game_menu.py;." --add-data "game_setting_gui.py;." --add-data "keypress_handler.py;." --add-data "license.py;." --add-data "operator_menu.py;." --add-data "steam.py;." --add-data "games_logs.db;." --add-data "operator_settings.db;." --add-data "steam_games.db;."  -m main.py
